@@ -2,9 +2,9 @@ import axios from "axios";
 import { HttpsProxyAgent } from "https-proxy-agent";
 
 // Điền danh sách proxy
-const proxies = ["http://154.213.194.240:3128", "http://104.207.44.3:3128"];
+// proxy có user:passs  "http://user:pass@sp08-06.proxy.mkvn.net:13882"
 
-// Điền danh sách ví sui
+const proxies = ["http://154.213.194.240:3128", "http://104.207.44.3:3128"];
 const addresss = [
   "0xbecfd3de527f4d34bd9cd3f86c4065d0029a4653b7a4037e91ba273e9110e076",
   "0xd8d71b2860eaf2b50ac54cb86b23ee8962c0531ab6329d893f3e3580a0c76a4a",
